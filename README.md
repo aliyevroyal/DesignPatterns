@@ -6,6 +6,12 @@ Design Patterns implementation in Java Programming Language
 
 DesignPatterns/src/com/thealiyev/SingletonDesignPattern
 DesignPatterns/src/com/thealiyev/FactoryDesignPattern
+3DPathPlanningForUAVs/src/com/thealiyev/GWOPathPlanningDynamicStationaryMethod
+3DPathPlanningForUAVs/src/com/thealiyev/GWOPathPlanningStaticStationaryMethod
+3DPathPlanningForUAVs/src/com/thealiyev/ExGWOPathPlanningDynamicStationaryMethod
+3DPathPlanningForUAVs/src/com/thealiyev/ExGWOPathPlanningStaticStationaryMethod
+3DPathPlanningForUAVs/src/com/thealiyev/IGWOPathPlanningDynamicStationaryMethod
+3DPathPlanningForUAVs/src/com/thealiyev/IGWOPathPlanningStaticStationaryMethod
 
 ## Authors
 
