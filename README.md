@@ -4,7 +4,7 @@ Design Patterns implementation in Java Programming Language
 
 ## Source Code Directory
 
-DesignPatterns/src/com/thealiyev/SingletonDesignPattern<br />
+DesignPatterns/src/com/thealiyev/SingletonDesignPattern <br/>
 DesignPatterns/src/com/thealiyev/FactoryDesignPattern
 
 ## Authors
