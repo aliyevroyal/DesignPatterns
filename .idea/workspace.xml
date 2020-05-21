@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb98a7a3-dfe6-47ed-8af6-f3288e7a1a6e" name="Default Changelist" comment="" />
+    <list default="true" id="fb98a7a3-dfe6-47ed-8af6-f3288e7a1a6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thealiyev/PrototypeDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/thealiyev/FactoryDesignPattern$EmployeeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/com/thealiyev/FactoryDesignPattern$EmployeeFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/com/thealiyev/FactoryDesignPattern$Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/com/thealiyev/FactoryDesignPattern$Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/FactoryDesignPattern.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DesignPatterns" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bYiiyAGf3UvFzA2v5dTBtMgJPn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,12 +35,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.FactoryDesignPattern$Main">
+  <component name="RunManager" selected="Application.PrototypeDesignPattern$Main">
     <configuration name="FactoryDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealiyev.FactoryDesignPattern$Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealiyev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrototypeDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealiyev.PrototypeDesignPattern$Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +82,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FactoryDesignPattern$Main" />
+        <item itemvalue="Application.PrototypeDesignPattern$Main" />
         <item itemvalue="Application.SingletonDesignPattern$Main" />
+        <item itemvalue="Application.FactoryDesignPattern$Main" />
       </list>
     </recent_temporary>
   </component>
@@ -72,6 +101,7 @@
       <workItem from="1588815560028" duration="1653000" />
       <workItem from="1588867519488" duration="3280000" />
       <workItem from="1588887906426" duration="7000" />
+      <workItem from="1590016814011" duration="5841000" />
     </task>
     <servers />
   </component>
@@ -79,33 +109,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1588868833098">
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser" timestamp="1590021211439">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1588868833098" />
+    <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1590021211439" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588869347855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588869347855" />
-    <state width="1440" height="252" key="GridCell.Tab.0.bottom" timestamp="1588887683011">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590024956366">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588887683011" />
-    <state width="1440" height="252" key="GridCell.Tab.0.center" timestamp="1588887683009">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590024956366" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590024956364">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588887683009" />
-    <state width="1440" height="252" key="GridCell.Tab.0.left" timestamp="1588887683008">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590024956364" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590024956363">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588887683008" />
-    <state width="1440" height="252" key="GridCell.Tab.0.right" timestamp="1588887683010">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590024956363" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590024956365">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="252" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588887683010" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590024956365" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1588867838414">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1588867838414" />
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1590016819873">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1590016819873" />
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590024252748">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1590024252748" />
   </component>
 </project>

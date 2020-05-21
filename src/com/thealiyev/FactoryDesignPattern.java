@@ -8,34 +8,33 @@ public class FactoryDesignPattern {
     public static class projectManager implements employee {
         @Override
         public void does() {
-            System.out.println("Leads project");
+            System.out.println("Leads project.");
         }
     }
 
     public static class designer implements employee {
         @Override
         public void does() {
-            System.out.println("Designs application");
+            System.out.println("Designs application.");
         }
     }
 
     public static class frontEndDeveloper implements employee {
         @Override
         public void does() {
-            System.out.println("Codes front end of application");
+            System.out.println("Codes front end of application.");
         }
     }
 
     public static class backEndDeveloper implements employee {
         @Override
         public void does() {
-            System.out.println("Programs back end of application");
+            System.out.println("Programs back end of application.");
         }
     }
 
     public static class EmployeeFactory {
         public employee getEmployee(String employeeType) {
-
             switch (employeeType) {
                 case "Project Manager":
                     return new projectManager();
