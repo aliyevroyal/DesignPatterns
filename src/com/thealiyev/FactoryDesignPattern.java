@@ -1,49 +1,43 @@
 package com.thealiyev;
 
 public class FactoryDesignPattern {
-    public interface employee {
-        void does();
+    public interface IClass {
+        void print();
     }
 
-    public static class projectManager implements employee {
+    public static class firstClass implements IClass {
         @Override
-        public void does() {
-            System.out.println("Leads project.");
+        public void print() {
+            System.out.println("This is the first class.");
         }
     }
 
-    public static class designer implements employee {
+    public static class secondClass implements IClass {
         @Override
-        public void does() {
-            System.out.println("Designs application.");
+        public void print() {
+            System.out.println("This is the second class.");
         }
     }
 
-    public static class frontEndDeveloper implements employee {
+    public static class thirdClass implements IClass {
         @Override
-        public void does() {
-            System.out.println("Codes front end of application.");
+        public void print() {
+            System.out.println("This is the third class.");
         }
     }
 
-    public static class backEndDeveloper implements employee {
-        @Override
-        public void does() {
-            System.out.println("Programs back end of application.");
-        }
-    }
+    public static class Factory {
+        public IClass createObject(String className) {
+            className = className.toLowerCase();
+            className = className.replaceAll("\\s", "");
 
-    public static class EmployeeFactory {
-        public employee getEmployee(String employeeType) {
-            switch (employeeType) {
-                case "Project Manager":
-                    return new projectManager();
-                case "Designer":
-                    return new designer();
-                case "Front End Developer":
-                    return new frontEndDeveloper();
-                case "Back End Developer":
-                    return new backEndDeveloper();
+            switch (className) {
+                case "firstclass":
+                    return new firstClass();
+                case "secondclass":
+                    return new secondClass();
+                case "thirdclass":
+                    return new thirdClass();
                 default:
                     return null;
             }
@@ -51,20 +45,17 @@ public class FactoryDesignPattern {
     }
 
     public static class Main {
-        public static void main(String[] args) {
-            EmployeeFactory employeeFactory = new EmployeeFactory();
+        public static void main(String args[]) {
+            Factory factory = new Factory();
 
-            employee employee1 = employeeFactory.getEmployee("Project Manager");
-            employee1.does();
+            IClass objectOfFirstClass = factory.createObject("First Class");
+            objectOfFirstClass.print();
 
-            employee employee2 = employeeFactory.getEmployee("Designer");
-            employee2.does();
+            IClass objectOfSecondClass = factory.createObject("Second Class");
+            objectOfSecondClass.print();
 
-            employee employee3 = employeeFactory.getEmployee("Front End Developer");
-            employee3.does();
-
-            employee employee4 = employeeFactory.getEmployee("Back End Developer");
-            employee4.does();
+            IClass objectOfThirdClass = factory.createObject("Third Class");
+            objectOfThirdClass.print();
         }
     }
 }

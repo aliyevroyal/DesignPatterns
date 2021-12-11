@@ -2,10 +2,18 @@ package com.thealiyev;
 
 public class SingletonDesignPattern {
     public static class SingleObjectClass {
-        private static SingleObjectClass singleObjectClass = new SingleObjectClass();
+        private static SingleObjectClass singleObjectClass;
 
         private SingleObjectClass() {
 
+        }
+
+        static {
+            try {
+                singleObjectClass = new SingleObjectClass();
+            } catch (Exception exception) {
+                System.out.println(exception);
+            }
         }
 
         public static SingleObjectClass getSingleObjectClass() {
