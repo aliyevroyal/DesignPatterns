@@ -5,21 +5,21 @@ public class FactoryDesignPattern {
         void print();
     }
 
-    public static class firstClass implements IClass {
+    public static class FirstClass implements IClass {
         @Override
         public void print() {
             System.out.println("This is the first class.");
         }
     }
 
-    public static class secondClass implements IClass {
+    public static class SecondClass implements IClass {
         @Override
         public void print() {
             System.out.println("This is the second class.");
         }
     }
 
-    public static class thirdClass implements IClass {
+    public static class ThirdClass implements IClass {
         @Override
         public void print() {
             System.out.println("This is the third class.");
@@ -33,11 +33,11 @@ public class FactoryDesignPattern {
 
             switch (className) {
                 case "firstclass":
-                    return new firstClass();
+                    return new FirstClass();
                 case "secondclass":
-                    return new secondClass();
+                    return new SecondClass();
                 case "thirdclass":
-                    return new thirdClass();
+                    return new ThirdClass();
                 default:
                     return null;
             }
