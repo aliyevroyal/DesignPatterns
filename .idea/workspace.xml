@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb98a7a3-dfe6-47ed-8af6-f3288e7a1a6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/thealiyev/BuilderDesignPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/BuilderDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/thealiyev/BuilderDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,8 @@
       <workItem from="1638947356679" duration="816000" />
       <workItem from="1639029073912" duration="2211000" />
       <workItem from="1639198681374" duration="4558000" />
-      <workItem from="1639381369439" duration="822000" />
+      <workItem from="1639381369439" duration="1624000" />
+      <workItem from="1639462916326" duration="3054000" />
     </task>
     <servers />
   </component>
