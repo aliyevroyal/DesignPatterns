@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fb98a7a3-dfe6-47ed-8af6-f3288e7a1a6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/thealiyev/PrototypeDesignPatternMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thealiyev/PrototypeDesignPatternRevision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/ObjectPoolDesignPattern.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPatterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/AbstractFactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/AbstractFactoryDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/BuilderDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/BuilderDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/FactoryDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/PrototypeDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/PrototypeDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/thealiyev/SingletonDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/SingletonDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,19 +35,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bYiiyAGf3UvFzA2v5dTBtMgJPn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.SingletonDesignPattern$Main">
+  <component name="RunManager" selected="Application.ObjectPoolDesignPattern$Main">
     <configuration name="AbstractFactoryDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealiyev.AbstractFactoryDesignPattern$Main" />
       <module name="DesignPatterns" />
@@ -78,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealiyev.FactoryDesignPattern$Main" />
+    <configuration name="ObjectPoolDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealiyev.ObjectPoolDesignPattern$Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectPoolDesignPattern$Main" />
         <item itemvalue="Application.SingletonDesignPattern$Main" />
         <item itemvalue="Application.PrototypeDesignPattern$Main" />
         <item itemvalue="Application.BuilderDesignPattern$Main" />
         <item itemvalue="Application.AbstractFactoryDesignPattern$Main" />
-        <item itemvalue="Application.FactoryDesignPattern$Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +168,9 @@
       <workItem from="1639198681374" duration="4558000" />
       <workItem from="1639381369439" duration="1624000" />
       <workItem from="1639462916326" duration="3761000" />
-      <workItem from="1639640398172" duration="2345000" />
+      <workItem from="1639640398172" duration="2716000" />
+      <workItem from="1639725706879" duration="187000" />
+      <workItem from="1639726472715" duration="641000" />
     </task>
     <servers />
   </component>
@@ -166,5 +188,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
