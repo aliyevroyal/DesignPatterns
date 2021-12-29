@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fb98a7a3-dfe6-47ed-8af6-f3288e7a1a6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/AbstractFactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/AbstractFactoryDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/BuilderDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/BuilderDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/FactoryDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/ObjectPoolDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/ObjectPoolDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/PrototypeDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/PrototypeDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/SingletonDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/SingletonDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thealiyev/ObjectPoolDesignPattern$Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thealiyev/ObjectPoolDesignPattern$Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thealiyev/ObjectPoolDesignPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thealiyev/ObjectPoolDesignPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/ObjectPoolDesignPattern.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/thealiyev" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -61,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/thealiyev/" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -169,7 +164,8 @@
       <workItem from="1639640398172" duration="2716000" />
       <workItem from="1639725706879" duration="187000" />
       <workItem from="1639726472715" duration="641000" />
-      <workItem from="1639727197615" duration="968000" />
+      <workItem from="1639727197615" duration="1677000" />
+      <workItem from="1640794802452" duration="314000" />
     </task>
     <servers />
   </component>
