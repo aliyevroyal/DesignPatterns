@@ -21,7 +21,7 @@ public class BuilderDesignPattern {
         }
     }
 
-    public static abstract class FirstGroupClass implements Class {
+    public static abstract class FirstGroupClass implements IClass {
         @Override
         public void print() {
 
@@ -40,21 +40,21 @@ public class BuilderDesignPattern {
         }
     }
 
-    public static abstract class SecondGroupClass implements Class {
+    public static abstract class SecondGroupClass implements IClass {
         @Override
         public void print() {
 
         }
     }
 
-    public interface Class {
+    public interface IClass {
         void print();
     }
 
     public static class RequestedClasses {
-        private List<Class> classes = new ArrayList<Class>();
+        private List<IClass> classes = new ArrayList<IClass>();
 
-        public void addClass(Class className) {
+        public void addClass(IClass className) {
             classes.add(className);
         }
 

@@ -89,6 +89,7 @@ public class AbstractFactoryDesignPattern {
         @Override
         public ISecondGroupClass getObjectFromSecondGroup(String className) {
             className = className.toLowerCase();
+
             className = className.replaceAll("\\s", "");
 
             switch (className) {
