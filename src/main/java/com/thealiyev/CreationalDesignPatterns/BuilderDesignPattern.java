@@ -11,13 +11,13 @@ public class BuilderDesignPattern {
 
     public static class FirstClassFromFirstGroup extends FirstGroupClass {
         public void print() {
-            System.out.println("This is the first class from the first group/family.");
+            logger.debug("This is the first class from the first group/family.");
         }
     }
 
     public static class SecondClassFromFirstGroup extends FirstGroupClass {
         public void print() {
-            System.out.println("This is the second class from the first group/family.");
+            logger.debug("This is the second class from the first group/family.");
         }
     }
 
@@ -30,13 +30,13 @@ public class BuilderDesignPattern {
 
     public static class FirstClassFromSecondGroup extends SecondGroupClass {
         public void print() {
-            System.out.println("This is the first class from the second group/family.");
+            logger.debug("This is the first class from the second group/family.");
         }
     }
 
     public static class SecondClassFromSecondGroup extends SecondGroupClass {
         public void print() {
-            System.out.println("This is the second class from the second group/family.");
+            logger.debug("This is the second class from the second group/family.");
         }
     }
 
@@ -86,7 +86,7 @@ public class BuilderDesignPattern {
     }
 
     public static class Main {
-        public static void main(String args[]) {
+        public static void main(String[] args) {
             ObjectBuilder objectBuilder = new ObjectBuilder();
 
             RequestedClasses requestedClassesFromFirstGroup = objectBuilder.buildFirstGroupClasses();

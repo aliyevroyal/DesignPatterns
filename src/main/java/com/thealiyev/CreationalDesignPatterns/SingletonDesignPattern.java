@@ -17,22 +17,22 @@ public class SingletonDesignPattern {
             try {
                 singleObjectClass = new SingleObjectClass();
             } catch (Exception exception) {
-                System.out.println(exception);
+                logger.debug(String.valueOf(exception));
             }
         }
 
-        public static SingleObjectClass getSingleObjectClass() {
+        private static SingleObjectClass getSingleObjectClass() {
             return singleObjectClass;
         }
 
         public void verifier() {
-            System.out.println("Singleton Design Pattern is working!!!");
+            logger.debug("Singleton Design Pattern is working!!!");
         }
     }
 
     public static class Main {
         public static void main(String[] args) {
-            SingleObjectClass singleObjectClass = SingleObjectClass.getSingleObjectClass();
+            SingleObjectClass singleObjectClass = new SingleObjectClass();
             singleObjectClass.verifier();
         }
     }

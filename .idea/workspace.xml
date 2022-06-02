@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fb98a7a3-dfe6-47ed-8af6-f3288e7a1a6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/AbstractFactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/AbstractFactoryDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/BuilderDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/BuilderDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/FactoryDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/PrototypeDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/PrototypeDesignPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/SingletonDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealiyev/CreationalDesignPatterns/SingletonDesignPattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +68,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.AbstractFactoryDesignPattern$Main">
+  <component name="RunManager" selected="Application.SingletonDesignPattern$Main">
     <configuration name="AbstractFactoryDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealiyev.CreationalDesignPatterns.AbstractFactoryDesignPattern$Main" />
       <module name="DesignPatterns" />
@@ -103,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrototypeDesignPattern$Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PrototypeDesignPattern$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealiyev.CreationalDesignPatterns.PrototypeDesignPattern$Main" />
       <module name="DesignPatterns" />
       <extension name="coverage">
@@ -131,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AbstractFactoryDesignPattern$Main" />
         <item itemvalue="Application.SingletonDesignPattern$Main" />
-        <item itemvalue="Application.PrototypeDesignPattern$Main (1)" />
+        <item itemvalue="Application.PrototypeDesignPattern$Main" />
         <item itemvalue="Application.FactoryDesignPattern$Main" />
         <item itemvalue="Application.BuilderDesignPattern$Main" />
+        <item itemvalue="Application.AbstractFactoryDesignPattern$Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +171,11 @@
       <workItem from="1639727197615" duration="1677000" />
       <workItem from="1640794802452" duration="532000" />
       <workItem from="1644924913354" duration="7751000" />
-      <workItem from="1644942217992" duration="292000" />
+      <workItem from="1644942217992" duration="365000" />
+      <workItem from="1645176568715" duration="353000" />
+      <workItem from="1649413955533" duration="1026000" />
+      <workItem from="1649686603346" duration="2548000" />
+      <workItem from="1654151937643" duration="4557000" />
     </task>
     <servers />
   </component>

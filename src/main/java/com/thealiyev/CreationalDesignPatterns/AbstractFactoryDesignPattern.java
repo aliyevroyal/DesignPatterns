@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class AbstractFactoryDesignPattern {
-    public static Logger logger = LoggerFactory.getLogger(AbstractFactoryDesignPattern.class);
+    public static Logger logger = LoggerFactory.getLogger(SingletonDesignPattern.class);
 
     public interface IFirstGroupClass {
         void print();
@@ -13,21 +13,21 @@ public class AbstractFactoryDesignPattern {
     public static class FirstClassFromFirstGroup implements IFirstGroupClass {
         @Override
         public void print() {
-            System.out.println("This is the first class from the first group/family.");
+            logger.debug("This is the first class from the first group/family.");
         }
     }
 
     public static class SecondClassFromFirstGroup implements IFirstGroupClass {
         @Override
         public void print() {
-            System.out.println("This is the second class from the first group/family.");
+            logger.debug("This is the second class from the first group/family.");
         }
     }
 
     public static class ThirdClassFromFirstGroup implements IFirstGroupClass {
         @Override
         public void print() {
-            System.out.println("This is the third class from the first group/family.");
+            logger.debug("This is the third class from the first group/family.");
         }
     }
 
@@ -62,21 +62,21 @@ public class AbstractFactoryDesignPattern {
     public static class FirstClassFromSecondGroup implements ISecondGroupClass {
         @Override
         public void print() {
-            System.out.println("This is the first class from the second group/family.");
+            logger.debug("This is the first class from the second group/family.");
         }
     }
 
     public static class SecondClassFromSecondGroup implements ISecondGroupClass {
         @Override
         public void print() {
-            System.out.println("This is the second class from the second group/family.");
+            logger.debug("This is the second class from the second group/family.");
         }
     }
 
     public static class ThirdClassFromSecondGroup implements ISecondGroupClass {
         @Override
         public void print() {
-            System.out.println("This is the third class from the second group/family.");
+            logger.debug("This is the third class from the second group/family.");
         }
     }
 
@@ -89,7 +89,6 @@ public class AbstractFactoryDesignPattern {
         @Override
         public ISecondGroupClass getObjectFromSecondGroup(String className) {
             className = className.toLowerCase();
-
             className = className.replaceAll("\\s", "");
 
             switch (className) {
@@ -127,7 +126,7 @@ public class AbstractFactoryDesignPattern {
     }
 
     public static class Main {
-        public static void main(String args[]) {
+        public static void main(String[] args) {
             AbstractFactory abstractFirstFactory = FactoryCreator.getFactory("firstfactory");
 
             IFirstGroupClass objectOfFirstClassFromFirstGroup = abstractFirstFactory.getObjectFromFirstGroup("First Class");

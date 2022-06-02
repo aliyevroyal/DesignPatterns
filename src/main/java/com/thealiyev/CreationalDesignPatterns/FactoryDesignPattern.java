@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class FactoryDesignPattern {
-    public static Logger logger = LoggerFactory.getLogger(FactoryDesignPattern.class);
+    public static Logger logger = LoggerFactory.getLogger(SingletonDesignPattern.class);
 
     public interface IClass {
         void print();
@@ -13,21 +13,21 @@ public class FactoryDesignPattern {
     public static class FirstClass implements IClass {
         @Override
         public void print() {
-            System.out.println("This is the first class.");
+            logger.debug("This is the first class.");
         }
     }
 
     public static class SecondClass implements IClass {
         @Override
         public void print() {
-            System.out.println("This is the second class.");
+            logger.debug("This is the second class.");
         }
     }
 
     public static class ThirdClass implements IClass {
         @Override
         public void print() {
-            System.out.println("This is the third class.");
+            logger.debug("This is the third class.");
         }
     }
 
@@ -50,7 +50,7 @@ public class FactoryDesignPattern {
     }
 
     public static class Main {
-        public static void main(String args[]) {
+        public static void main(String[] args) {
             Factory factory = new Factory();
 
             IClass objectOfFirstClass = factory.createObject("First Class");

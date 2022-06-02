@@ -23,17 +23,18 @@ public class PrototypeDesignPattern {
 
         @Override
         public IPrototypeClass getClone() {
-            System.out.println("This method gets the clone of given object.");
+            logger.debug("This method gets the clone of given object.");
             return new Class(objectName);
         }
     }
 
     public static class Main {
-        public static void main(String args[]) {
-            Class object1 = new Class("object1");
+        public static void main(String[] args) {
+            Class object = new Class("object");
 
-            Class object2 = (Class) object1.getClone();
-            System.out.println(object2.getObjectName());
+            Class object1 = (Class) object.getClone();
+            logger.debug(object1.getObjectName());
+
         }
     }
 }
